@@ -9,6 +9,7 @@ A collection of youtube scripts I cobbled together
 ## Requirements
 
 - yt-dlp
+- ffmpeg
 - aria2 (for ydl)
 
 ## youtube
