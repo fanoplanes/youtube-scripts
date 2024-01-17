@@ -1,6 +1,6 @@
 #!/bin/env bash
 
 cd /tmp
-yt-dlp -f "bv[height=1080]+ba" $1 -o "videooutput"
+yt-dlp -f "bv[height=1080]+ba" $1 -o "videooutput" --merge-output-format "mkv" --embed-subs --embed-metadata
 mpv videooutput*
 rm videooutput*
