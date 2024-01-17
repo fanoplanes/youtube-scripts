@@ -2,11 +2,11 @@
 
 A collection of youtube scripts I cobbled together
 
-# Usage
+## Usage
 
 `[script name] [URL]`
 
-# Requirements
+## Requirements
 
 - yt-dlp
 - aria2 (for ydl)
