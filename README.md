@@ -10,6 +10,7 @@ A collection of youtube scripts I cobbled together
 
 - yt-dlp
 - ffmpeg
+- mpv
 - aria2 (for ydl)
 
 ## youtube
