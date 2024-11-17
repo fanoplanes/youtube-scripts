@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-cd /tmp
-yt-dlp --downloader "aria2c" --downloader-args "aria2c:-c -j 6 -x 6 -s 6 -k 1M" -f "bv[height=1080]+ba" $1 -o "videooutput"
+cd /tmp || exit
+yt-dlp --downloader "aria2c" --downloader-args "aria2c:-c -j 6 -x 6 -s 6 -k 1M" -f "bv[height=1080]+ba" --embed-chapters --embed-metadata "$1" -o "videooutput"
 mpv videooutput*
 rm videooutput*
